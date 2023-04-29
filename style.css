@@ -1,0 +1,46 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.space-left,
+.space-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.space-left {
+	margin-right: 5px;
+}
+
+.space-right {
+	margin-left: 5px;
+}
+
+progress {
+	display: inline;
+	width: 60%;
+	height: 50px;
+}
+
+progress::-webkit-progress-value {
+	background-color: green;
+}
+
+button {
+	background-color: #2d3a3e;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
